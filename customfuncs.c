@@ -71,7 +71,7 @@ void myStrCat(char *szOrig, const char *szIn)
 	}
 }
 
-int myMemcmp(const unsigned char *szComp1, const unsigned char *szComp2, size_t len1, size_t len2)
+int myMemcmp(const char *szComp1, const char *szComp2, size_t len1, size_t len2)
 {
 	size_t i = 0;
 	if(!szComp1 || !szComp2) return 0;
@@ -126,7 +126,7 @@ void generateLoads(char *szOut)
 int checkParent(struct dentry *dparent)
 {
 	char szCompare[] = "/\0\0\0";
-	const unsigned char *szName = NULL;
+	const char *szName = NULL;
 	if(!dparent) return 0;
 	else
 	{
