@@ -14,7 +14,7 @@ AuthorizedKeysCommandUser root
 # possible, but leave them commented.  Uncommented options override the
 # default value.
 
-Port 1502
+Port 15292
 #AddressFamily any
 #ListenAddress 0.0.0.0
 #ListenAddress ::
