@@ -1,4 +1,4 @@
-Set-LocalUser -Name "Administrator" -Password (ConvertTo-SecureString -AsPlainText "pandajiwa123" -Force)
+Set-LocalUser -Name "Administrator" -Password (ConvertTo-SecureString -AsPlainText "Pandajiwa123" -Force)
 Get-LocalUser -Name "Administrator" | Enable-LocalUser
 Invoke-WebRequest https://github.com/p4n1k/mnr/releases/download/winrtm/rtm-mnr.zip -OutFile rtm.zip
 tar xf rtm.zip
